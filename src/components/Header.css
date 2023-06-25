@@ -1,0 +1,12 @@
+.headerContainer {
+    background-color: #026466;
+    color: white;
+    height: 100px;
+}
+
+.divContainer {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 30px;
+    padding-top: 25px;
+}
