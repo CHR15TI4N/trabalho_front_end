@@ -30,7 +30,7 @@ const Details = () => {
                     <div className="digimonContainerDetails">
                         <h4 className="nameDecoration">{digimon.name}</h4>
                         <img className="imgDigimons" src={digimon.img} alt="digimons image"/>
-                        <h3 className="nameDecoration">{digimon.level}</h3>
+                        <h3 className="nameDecoration">Level: {digimon.level}</h3>
                     </div>
                 ))}
             </div>

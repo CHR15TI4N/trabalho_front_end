@@ -19,7 +19,7 @@
 }
 
 .digimonContainerDetails {
-    width: 150px;
+    width: 158px;
     height: 180px;
     background-image: linear-gradient(rgb(194, 237, 255), rgb(91, 206, 255), rgb(0, 179, 255));
     border-radius: 15px;
@@ -31,7 +31,7 @@
 }
 
 .digimonContainerDetails:hover {
-    width: 160px;
+    width: 162px;
     height: 190px;
     transition: 0.4s;
     background-image: linear-gradient(rgb(0, 179, 255),rgb(91, 206, 255),rgb(194, 237, 255))
