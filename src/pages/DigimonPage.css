@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgb(255, 189, 68), rgb(211, 241, 255), rgb(137, 218, 255), rgb(15, 179, 255));
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.digimonContainer {
+    width: 150px;
+    height: 110px;
+    background-image: linear-gradient(rgb(194, 237, 255), rgb(91, 206, 255), rgb(0, 179, 255));
+    border-radius: 15px;
+    text-align: center;
+    margin: 2rem 1rem 1rem 1rem;
+    padding-top: 25px;
+    box-shadow: 3px 6px 10px 1px rgb(10, 44, 59), 3px 6px 10px 1px rgb(43, 191, 255);
+}
+
+.bodyContainer{
+    padding-inline: 250px;
+}
+
+.buttonContainer {
+    border-radius: 5px;
+    margin: 15px;
+    width: 100px;
+    height: 40px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-style: none;
+    background-color: orange;
+    color: rgb(21, 81, 107);
+    transition: 0.4s;
+}
+
+.buttonContainer:hover {
+    color: orange;
+    background-color: rgb(28, 144, 197);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.textDecoration {
+    background-image: linear-gradient(rgb(28, 144, 197), rgb(22, 102, 139), rgb(11, 51, 70));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    padding-top: 20px;
+}
+
+.nameDecoration {
+    background-image: linear-gradient(rgb(255, 183, 50), rgb(247, 160, 0), rgb(104, 67, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}

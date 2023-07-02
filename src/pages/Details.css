@@ -1,0 +1,56 @@
+.containerDetails {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgb(0, 91, 133),rgb(15, 179, 255),rgb(137, 218, 255),rgb(211, 241, 255),rgb(255, 189, 68));
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bodyContainerDetails {
+    padding-inline: 250px;
+    transition: 0.4s;
+}
+
+.bodyContainerDetails:hover {
+    padding-inline: 260px;
+    transition: 0.4s;
+}
+
+.digimonContainerDetails {
+    width: 150px;
+    height: 180px;
+    background-image: linear-gradient(rgb(194, 237, 255), rgb(91, 206, 255), rgb(0, 179, 255));
+    border-radius: 15px;
+    text-align: center;
+    margin: 2rem 2rem 1rem 1rem;
+    padding-top: 25px;
+    box-shadow: 3px 6px 10px 1px rgb(10, 44, 59), 3px 6px 10px 1px rgb(43, 191, 255);
+    transition: 0.4s;
+}
+
+.digimonContainerDetails:hover {
+    width: 160px;
+    height: 190px;
+    transition: 0.4s;
+    background-image: linear-gradient(rgb(0, 179, 255),rgb(91, 206, 255),rgb(194, 237, 255))
+}
+
+.textDecorationDetails {
+    background-image: linear-gradient(rgb(255, 214, 137), rgb(255, 197, 89), rgb(204, 133, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    padding-top: 20px;
+}
+
+.imgDigimons {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: goldenrod;
+}

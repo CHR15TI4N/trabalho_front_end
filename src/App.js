@@ -1,15 +1,15 @@
 import './App.css';
 import Header from './components/Header';
-import DigimonPage from './pages/DigimonPage';
+import Router from './routes/Router';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header>
         <Header/>
       </header>
       <body>
-        <DigimonPage/>
+        <Router/>
       </body>
     </div>
   );

@@ -1,7 +1,11 @@
+* {
+    margin: 0;
+}
+
 .headerContainer {
-    background-color: #026466;
+    background-image: linear-gradient(to right, rgb(255, 166, 0), rgb(0, 174, 255), rgb(0, 91, 133));
     color: white;
-    height: 100px;
+    height: 16vh;
 }
 
 .divContainer {
@@ -9,4 +13,10 @@
     padding-left: 15px;
     font-size: 30px;
     padding-top: 25px;
+}
+
+.imageContainer {
+    width: 180px;
+    height: 90px;
+    margin: 4px 30px;
 }

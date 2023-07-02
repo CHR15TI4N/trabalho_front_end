@@ -1,10 +1,12 @@
 import './Header.css';
+import digimonImage from '../image/Digimon-Logo-Transparent.png';
 
 const Header = () => {
+
     return (
         <header>
-            <div>
-                <h2>Digimons</h2>
+            <div className='headerContainer'>
+                <img className='imageContainer' src={digimonImage}/>
             </div>
         </header>
     );

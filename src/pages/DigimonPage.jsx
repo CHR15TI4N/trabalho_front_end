@@ -1,9 +1,18 @@
 import axios from "axios";
 import { useCallback, useEffect, useState } from "react";
+import './DigimonPage.css';
+import { useNavigate } from "react-router-dom";
+
 
 const DigimonPage = () => {
 
     const [DigimonData, setDigimonData] = useState([])
+
+    const navigate = useNavigate()
+
+    const onClickNavigate = () => {
+        navigate('/details')
+    }
 
     const fetchDigimon = useCallback(async () => {
         try {
@@ -20,21 +29,29 @@ const DigimonPage = () => {
 
     const renderDigimonData = () => {
         return(
-            <div>
-                <h2>Nomes:</h2>
-                {DigimonData.map(digimon => (
-                    <div className="digimonContainer">
-                        <h4>{digimon.name}</h4>
-                    </div>
-                ))}
-            </div>
+            <body className="bodyContainer">
+                <div className="container">
+                        {DigimonData.map(digimons => (
+                            <div className="digimonContainer">
+                                <h4 className="nameDecoration">{digimons.name}</h4>
+                                {/* <img className="imgDigimons" src={digimon.img}/> */}
+                                <button onClick={onClickNavigate} className="buttonContainer">
+                                    Ver informações
+                                </button>
+                            </div>
+                        ))}
+                </div>
+            </body>
         )
     }
 
+
     return (
         <div>
-            <h1>Todos os Digimons</h1>
-            {renderDigimonData()}
+            <div className="container">
+                <h1 className="textDecoration">Todos os Digimons</h1>
+                {renderDigimonData()}
+            </div>
         </div>
     );
 }
