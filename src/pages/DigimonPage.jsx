@@ -23,7 +23,7 @@ const DigimonPage = () => {
         }
     }, [])
 
-    useEffect(() => {
+    useEffect(() => { // é utilizado para lidar com lógica que não pertence diretamente à renderização, como chamadas a APIs, atualizações de estado, entre outros. Isso ajuda a separar as preocupações de renderização e efeitos colaterais no desenvolvimento de componentes React.
         fetchDigimon()
     }, [])
 
